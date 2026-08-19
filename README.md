@@ -83,7 +83,7 @@ Click the badge below to run, edit, and experiment directly in your browser:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/AdhamAmgadElSharkawy/numpy-visual-guide.git](https://github.com/AdhamAmgadElSharkawy/numpy-visual-guide.git)
+git clone https://github.com/AdhamAmgadElSharkawy/numpy-visual-guide.git
 cd numpy-visual-guide
 
 # Install required dependencies
@@ -91,4 +91,3 @@ pip install numpy matplotlib pillow
 
 # Open the Jupyter notebook
 jupyter notebook learnnumpy.ipynb
-⭐ If you find this reference useful, don't f
