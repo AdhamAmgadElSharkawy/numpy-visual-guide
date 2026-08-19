@@ -91,3 +91,15 @@ pip install numpy matplotlib pillow
 
 # Open the Jupyter notebook
 jupyter notebook learnnumpy.ipynb
+```
+---
+
+## 🌟 Support the Project
+
+If you found this visual guide helpful for your workflow or studies, please consider giving it a **Star ⭐** — it helps more developers and students discover the repository!
+
+<p align="left">
+  <a href="https://github.com/AdhamAmgadElSharkawy/numpy-visual-guide/stargazers">
+    <img src="https://img.shields.io/badge/⭐_Leave_a_Star-NumPy_Visual_Guide-orange?style=for-the-badge&logo=github" alt="Star NumPy Visual Guide">
+  </a>
+</p>
