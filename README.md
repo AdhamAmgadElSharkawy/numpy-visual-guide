@@ -55,20 +55,20 @@ NumPy arrays operate as multi-dimensional memory buffers. Here is how tensor man
 
 The complete notebook is divided into **14 modular sections**, structured logically from zero to production linear algebra:
 
-1. **[1. NumPy Basics & Array Creation](learnnumpy.ipynb)** — Vectors, matrices, shapes, and `.ndim`.
-2. **[2. Built-in Initializers & Dtypes](learnnumpy.ipynb)** — `np.zeros`, `linspace` vs `arange`, type casting.
-3. **[3. Indexing & Slicing](learnnumpy.ipynb)** — Sub-array extraction, striding, and stepping.
-4. **[4. Memory: Views vs. Deep Copies](learnnumpy.ipynb)** — Shared memory buffers and mutation safety.
-5. **[5. Reshaping, Transposing & Stacking](learnnumpy.ipynb)** — Inferred dimensions (`-1`), `vstack`, `hstack`.
-6. **[6. Arithmetic & Vectorization](learnnumpy.ipynb)** — Scalar operations and high-performance universal functions.
-7. **[7. Broadcasting Rules](learnnumpy.ipynb)** — Dimension expansion without copying data.
-8. **[8. Aggregate & Statistical Functions](learnnumpy.ipynb)** — Axis-based reductions, `mean`, `std`, and `argmax`.
-9. **[9. Handling Missing Data](learnnumpy.ipynb)** — NaN detection, finite filtering, and `nan`-safe metrics.
-10. **[10. Filtering & Boolean Indexing](learnnumpy.ipynb)** — Masks, bitwise logic, and `np.where`.
-11. **[11. Sorting & Unique Values](learnnumpy.ipynb)** — `np.sort`, argsort index mappings, and frequencies.
-12. **[12. Random Numbers (np.random)](learnnumpy.ipynb)** — Modern `default_rng`, distributions, and sampling.
-13. **[13. Linear Algebra (np.linalg)](learnnumpy.ipynb)** — Matrix products (`@`), determinants, and solvers.
-14. **[14. Array File I/O](learnnumpy.ipynb)** — High-speed binary serialization (`.npy`) and plain CSVs.
+* **Module 01:** `NumPy Basics & Array Creation` — Vectors, matrices, shapes, and `.ndim`.
+* **Module 02:** `Built-in Initializers & Dtypes` — `zeros`, `linspace` vs. `arange`, and casting.
+* **Module 03:** `Indexing & Slicing` — Sub-array extractions, step strides, and dimensions.
+* **Module 04:** `Memory: Views vs. Deep Copies` — Memory buffer pointers and mutation hazards.
+* **Module 05:** `Reshaping, Transposing & Stacking` — Auto-inferred dims (`-1`), `vstack`, and `hstack`.
+* **Module 06:** `Arithmetic & Vectorization` — Vectorized operations and high-speed ufuncs.
+* **Module 07:** `Broadcasting Rules` — Dimension stretching mechanics without memory copies.
+* **Module 08:** `Aggregate & Statistical Functions` — Axis reductions (`axis=0` vs `axis=1`), `mean`, `std`.
+* **Module 09:** `Handling Missing Data` — NaN detection, finite masks, and nan-safe aggregations.
+* **Module 10:** `Filtering & Boolean Indexing` — Conditional masking, bitwise operations, and `np.where`.
+* **Module 11:** `Sorting & Unique Values` — `np.sort`, argsort index mappings, and frequencies.
+* **Module 12:** `Random Numbers (np.random)` — Modern `default_rng`, distributions, and shuffling.
+* **Module 13:** `Linear Algebra (np.linalg)` — Dot products (`@`), determinants, matrix inverses, and solvers.
+* **Module 14:** `Array File I/O` — Binary serialization (`.npy`) and plain CSV export/import.
 
 ---
 
